@@ -7,6 +7,8 @@
         <controls:MyCustomEntry
             HorizontalOptions="Center"
             VerticalOptions="CenterAndExpand"/>
+
+        <Button Text="Take a Pickture" Clicked="TakePickture_Cliked"/>
     </StackLayout>
 
 </ContentPage>

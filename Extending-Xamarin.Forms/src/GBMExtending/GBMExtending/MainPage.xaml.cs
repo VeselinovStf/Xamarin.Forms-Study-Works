@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GBMExtending.Controls;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,6 +14,11 @@ namespace GBMExtending
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private async void TakePickture_Cliked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CameraPage());
         }
     }
 }
