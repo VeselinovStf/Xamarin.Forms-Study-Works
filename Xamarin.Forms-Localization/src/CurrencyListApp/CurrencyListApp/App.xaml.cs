@@ -12,6 +12,7 @@ namespace CurrencyListApp
             InitializeComponent();
 
             //ChangeCulture("es-ES");
+            //ChangeCulture("zh-CN");
 
             MainPage = new CurView();
         }

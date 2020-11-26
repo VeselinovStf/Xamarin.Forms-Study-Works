@@ -23,3 +23,15 @@
 - Testing the App
 
 #### Duration: 1h 11m
+
+
+## Additional Resouces
+
+- Xamarin.FormsLocalization -Microsoft docs https://docs.microsoft.com/en-us/xamarin/xamarin-forms/app-fundamentals/localization/
+- Add Languages to Your Xamarin Apps with Multilingual App Toolkit https://blog.xamarin.com/add-languages-to-your-apps-with-xamarin-and-multilingual-app-toolkit/
+- Internationalization -Apple Developer https://developer.apple.com/internationalization/
+- Localize your app -Android Developers https://developer.android.com/guide/topics/resources/localization
+
+## Status
+
+- Completed

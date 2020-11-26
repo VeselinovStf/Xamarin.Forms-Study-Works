@@ -11,10 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyListApp.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyListApp.iOS", "src\CurrencyListApp\CurrencyListApp.iOS\CurrencyListApp.iOS.csproj", "{388B7920-7F01-4545-886E-0FBFCD8614DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyListApp", "src\CurrencyListApp\CurrencyListApp\CurrencyListApp.csproj", "{ABE380BD-843F-45A8-96A1-163924A333B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CurrencyListApp", "src\CurrencyListApp\CurrencyListApp\CurrencyListApp.csproj", "{ABE380BD-843F-45A8-96A1-163924A333B5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AC7AEA0-8D4C-4BCD-9775-D18965E09C03}"
 	ProjectSection(SolutionItems) = preProject
+		repoimg\demo.bmp = repoimg\demo.bmp
 		README.md = README.md
 	EndProjectSection
 EndProject
