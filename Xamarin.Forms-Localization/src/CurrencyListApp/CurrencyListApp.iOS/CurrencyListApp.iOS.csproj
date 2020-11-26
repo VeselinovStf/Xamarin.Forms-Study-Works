@@ -65,7 +65,9 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <BundleResource Include="en.lproj\InfoPlist.strings" />
     <None Include="Entitlements.plist" />
+    <BundleResource Include="es.lproj\InfoPlist.strings" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
