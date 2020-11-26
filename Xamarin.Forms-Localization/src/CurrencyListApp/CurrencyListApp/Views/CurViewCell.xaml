@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CurrencyListApp.Views.CurViewCell"
+             xmlns:i18n="clr-namespace:CurrencyListApp.Helpers">
+    <ContentView.Content>
+        <StackLayout>
+            <Grid Style="{DynamicResource CurrencyCardStyle}">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <BoxView Color="#cecdca" Grid.Column="0"/>
+                <Label Grid.Column="0" Text="{Binding CurrencySymbol}" Style="{DynamicResource CurrencySymbolStyle}"/>
+                <StackLayout Grid.Column="1" Padding="8,8,0,0" Spacing="0.5">
+                    <Label Text="{i18n:Translate CurrencyNameLabel}" Style="{DynamicResource CurrencyLabelStyle}"/>
+                    <Label Text="{Binding CurrencyName}" Style="{DynamicResource CurrencyValueStyle}" />
+
+                    <Grid ColumnSpacing="8" HorizontalOptions="FillAndExpand" Margin="0, 5, 0, 0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50*" />
+                            <ColumnDefinition Width="50*" />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout Grid.Column="0" HorizontalOptions="FillAndExpand" Spacing="0.5">
+                            <Label Text="{i18n:Translate ConversionRateLabel}" Style="{DynamicResource CurrencyLabelStyle}"/>
+                            <Label Text="{Binding CurrencyRate, StringFormat='{0:F8}'}" Style="{DynamicResource CurrencyValueStyle}"/>
+                        </StackLayout>
+                        <StackLayout Grid.Column="1" HorizontalOptions="FillAndExpand" Spacing="0.5">
+                            <Label Text="{i18n:Translate CurrencyValueLabel}" Style="{DynamicResource CurrencyLabelStyle}"/>
+                            <Label Text="{Binding CurrencyValue, StringFormat='{0:F4}'}" Style="{DynamicResource CurrencyValueStyle}"/>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
+                

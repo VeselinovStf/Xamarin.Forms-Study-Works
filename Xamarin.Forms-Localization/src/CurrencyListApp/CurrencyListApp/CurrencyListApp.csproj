@@ -25,14 +25,29 @@
     <None Remove="MultilingualResources\CurrencyListApp.pt-PT.xlf" />
     <None Remove="MultilingualResources\CurrencyListApp.zh-Hans.xlf" />
     <None Remove="MultilingualResources\CurrencyListApp.zh-Hant.xlf" />
+    <None Remove="Services\currencies-es.json" />
+    <None Remove="Services\currencies-pt-br.json" />
+    <None Remove="Services\currencies-pt-pt.json" />
+    <None Remove="Services\currencies-zh-cn.json" />
+    <None Remove="Services\currencies-zh-tw.json" />
+    <None Remove="Services\currencies.json" />
+    <None Remove="Services\currencysymbols.json" />
+    <None Remove="Services\exchange.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Services\currencies-es.json" />
+    <EmbeddedResource Include="Services\currencies-pt-br.json" />
+    <EmbeddedResource Include="Services\currencies-pt-pt.json" />
+    <EmbeddedResource Include="Services\currencies-zh-cn.json" />
+    <EmbeddedResource Include="Services\currencies-zh-tw.json" />
+    <EmbeddedResource Include="Services\currencies.json" />
+    <EmbeddedResource Include="Services\currencysymbols.json" />
+    <EmbeddedResource Include="Services\exchange.json" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Views\" />
   </ItemGroup>
   <ItemGroup>
     <XliffResource Include="MultilingualResources\CurrencyListApp.es.xlf" />
@@ -52,6 +67,12 @@
     <EmbeddedResource Update="Resouces\AppResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\CurView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\CurViewCell.xaml">
+      <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
 </Project>
