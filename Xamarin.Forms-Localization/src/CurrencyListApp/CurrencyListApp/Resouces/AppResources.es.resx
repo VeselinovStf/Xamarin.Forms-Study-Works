@@ -12,4 +12,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="ConversionRateLabel" xml:space="preserve">
+    <value>Tasa</value>
+  </data>
+  <data name="CurrencyNameLabel" xml:space="preserve">
+    <value>Nombre de divisa</value>
+  </data>
+  <data name="CurrencyValueLabel" xml:space="preserve">
+    <value>[hX26g]Valor</value>
+  </data>
+  <data name="SelectCurrencyPrompt" xml:space="preserve">
+    <value>Seleccionar una divisa</value>
+  </data>
 </root>
