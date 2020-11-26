@@ -1,6 +1,8 @@
 # Xamarin.Forms: Localization
 - Pluralsight Course
 
+![project image](https://github.com/VeselinovStf/Xamarin.Forms-Study-Works/blob/main/Xamarin.Forms-Localization/repoimg/demo.bmp)
+
 ### Course Info
 
 - This course teaches you the basics of localization and internationalization in the context of mobile app development with Xamarin.Forms. You will learn how to write an app for the global market and how to test it.
