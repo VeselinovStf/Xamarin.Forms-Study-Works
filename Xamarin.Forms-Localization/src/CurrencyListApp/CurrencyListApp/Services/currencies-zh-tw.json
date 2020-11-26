@@ -1,0 +1,686 @@
+[
+  {
+    "Code": "AED",
+    "Name": "阿拉伯聯合大公國迪拉姆"
+  },
+  {
+    "Code": "AFN",
+    "Name": "阿富汗尼"
+  },
+  {
+    "Code": "ALL",
+    "Name": "阿爾巴尼亞列克"
+  },
+  {
+    "Code": "AMD",
+    "Name": "亞美尼亞德拉姆"
+  },
+  {
+    "Code": "ANG",
+    "Name": "荷屬安的列斯群島荷蘭盾"
+  },
+  {
+    "Code": "AOA",
+    "Name": "安哥拉寬紮"
+  },
+  {
+    "Code": "ARS",
+    "Name": "阿根廷比索"
+  },
+  {
+    "Code": "AUD",
+    "Name": "澳元"
+  },
+  {
+    "Code": "AWG",
+    "Name": "阿路巴弗洛林"
+  },
+  {
+    "Code": "AZN",
+    "Name": "亞塞拜然馬拉特"
+  },
+  {
+    "Code": "BAM",
+    "Name": "波士尼亞和黑塞哥維那可兌換標誌"
+  },
+  {
+    "Code": "BBD",
+    "Name": "巴巴多斯元"
+  },
+  {
+    "Code": "BDT",
+    "Name": "孟加拉國塔卡"
+  },
+  {
+    "Code": "BGN",
+    "Name": "保加利亞列夫"
+  },
+  {
+    "Code": "BHD",
+    "Name": "巴林第納爾"
+  },
+  {
+    "Code": "BIF",
+    "Name": "蒲隆地法郎"
+  },
+  {
+    "Code": "BMD",
+    "Name": "百慕達元"
+  },
+  {
+    "Code": "BND",
+    "Name": "汶萊元"
+  },
+  {
+    "Code": "BOB",
+    "Name": "玻利維亞玻利維亞諾"
+  },
+  {
+    "Code": "BRL",
+    "Name": "巴西雷亞爾"
+  },
+  {
+    "Code": "BSD",
+    "Name": "巴哈馬元"
+  },
+  {
+    "Code": "BTC",
+    "Name": "比特幣"
+  },
+  {
+    "Code": "BTN",
+    "Name": "不丹 ngsuperum"
+  },
+  {
+    "Code": "BWP",
+    "Name": "botswanan 普拉"
+  },
+  {
+    "Code": "BYN",
+    "Name": "白俄羅斯盧布"
+  },
+  {
+    "Code": "BZD",
+    "Name": "貝里斯元"
+  },
+  {
+    "Code": "CAD",
+    "Name": "加元"
+  },
+  {
+    "Code": "CDF",
+    "Name": "剛果法郎"
+  },
+  {
+    "Code": "CHF",
+    "Name": "瑞士法郎"
+  },
+  {
+    "Code": "CLF",
+    "Name": "智利記帳單位 (uf)"
+  },
+  {
+    "Code": "CLP",
+    "Name": "智利比索"
+  },
+  {
+    "Code": "CNH",
+    "Name": "人民幣 (離岸)"
+  },
+  {
+    "Code": "CNY",
+    "Name": "中國元"
+  },
+  {
+    "Code": "COP",
+    "Name": "哥倫比亞比索"
+  },
+  {
+    "Code": "CRC",
+    "Name": "哥斯大黎加科龍"
+  },
+  {
+    "Code": "CUC",
+    "Name": "古巴敞篷車比索"
+  },
+  {
+    "Code": "CUP",
+    "Name": "古巴比索"
+  },
+  {
+    "Code": "CVE",
+    "Name": "維德角埃斯庫多"
+  },
+  {
+    "Code": "CZK",
+    "Name": "捷克共和國科魯納"
+  },
+  {
+    "Code": "DJF",
+    "Name": "吉布地法郎"
+  },
+  {
+    "Code": "DKK",
+    "Name": "丹麥克朗"
+  },
+  {
+    "Code": "DOP",
+    "Name": "多明尼加比索"
+  },
+  {
+    "Code": "DZD",
+    "Name": "阿爾及利亞第納爾"
+  },
+  {
+    "Code": "EGP",
+    "Name": "埃及鎊"
+  },
+  {
+    "Code": "ERN",
+    "Name": "厄立特里亞 nakfa"
+  },
+  {
+    "Code": "ETB",
+    "Name": "埃塞俄比亞比爾"
+  },
+  {
+    "Code": "EUR",
+    "Name": "歐元"
+  },
+  {
+    "Code": "FJD",
+    "Name": "斐濟元"
+  },
+  {
+    "Code": "FKP",
+    "Name": "福克蘭群島鎊"
+  },
+  {
+    "Code": "GBP",
+    "Name": "英鎊"
+  },
+  {
+    "Code": "GEL",
+    "Name": "格魯吉亞拉裡"
+  },
+  {
+    "Code": "GGP",
+    "Name": "根西島鎊"
+  },
+  {
+    "Code": "GHS",
+    "Name": "加納塞迪"
+  },
+  {
+    "Code": "GIP",
+    "Name": "直布羅陀鎊"
+  },
+  {
+    "Code": "GMD",
+    "Name": "岡比亞達拉西"
+  },
+  {
+    "Code": "GNF",
+    "Name": "幾內亞法郎"
+  },
+  {
+    "Code": "GTQ",
+    "Name": "瓜地馬拉格查爾"
+  },
+  {
+    "Code": "GYD",
+    "Name": "蓋亞納元"
+  },
+  {
+    "Code": "HKD",
+    "Name": "港元"
+  },
+  {
+    "Code": "HNL",
+    "Name": "宏都拉斯倫皮拉"
+  },
+  {
+    "Code": "HRK",
+    "Name": "克羅地亞語庫納"
+  },
+  {
+    "Code": "HTG",
+    "Name": "海地古德"
+  },
+  {
+    "Code": "HUF",
+    "Name": "匈牙利福林"
+  },
+  {
+    "Code": "IDR",
+    "Name": "印尼盾"
+  },
+  {
+    "Code": "ILS",
+    "Name": "以色列新謝克爾"
+  },
+  {
+    "Code": "IMP",
+    "Name": "曼克斯鎊"
+  },
+  {
+    "Code": "INR",
+    "Name": "印度盧比"
+  },
+  {
+    "Code": "IQD",
+    "Name": "伊拉克第納爾"
+  },
+  {
+    "Code": "IRR",
+    "Name": "伊朗裡亞爾"
+  },
+  {
+    "Code": "ISK",
+    "Name": "冰島克朗"
+  },
+  {
+    "Code": "JEP",
+    "Name": "澤西鎊"
+  },
+  {
+    "Code": "JMD",
+    "Name": "牙買加元"
+  },
+  {
+    "Code": "JOD",
+    "Name": "約旦第納爾"
+  },
+  {
+    "Code": "JPY",
+    "Name": "日元"
+  },
+  {
+    "Code": "KES",
+    "Name": "肯雅先令"
+  },
+  {
+    "Code": "KGS",
+    "Name": "吉爾吉斯斯坦斯坦尼索姆"
+  },
+  {
+    "Code": "KHR",
+    "Name": "柬埔寨瑞爾"
+  },
+  {
+    "Code": "KMF",
+    "Name": "科摩羅法郎"
+  },
+  {
+    "Code": "KPW",
+    "Name": "朝鮮溫"
+  },
+  {
+    "Code": "KRW",
+    "Name": "韓元"
+  },
+  {
+    "Code": "KWD",
+    "Name": "科威特第納爾"
+  },
+  {
+    "Code": "KYD",
+    "Name": "開曼群島元"
+  },
+  {
+    "Code": "KZT",
+    "Name": "哈薩克斯坦騰格"
+  },
+  {
+    "Code": "LAK",
+    "Name": "老撾基普"
+  },
+  {
+    "Code": "LBP",
+    "Name": "黎巴嫩鎊"
+  },
+  {
+    "Code": "LKR",
+    "Name": "斯里蘭卡盧比"
+  },
+  {
+    "Code": "LRD",
+    "Name": "賴比瑞亞元"
+  },
+  {
+    "Code": "LSL",
+    "Name": "賴索托洛蒂"
+  },
+  {
+    "Code": "LYD",
+    "Name": "利比亞第納爾"
+  },
+  {
+    "Code": "MAD",
+    "Name": "摩洛哥迪拉姆"
+  },
+  {
+    "Code": "MDL",
+    "Name": "摩爾多瓦 leu"
+  },
+  {
+    "Code": "MGA",
+    "Name": "馬達加斯加阿裡亞裡"
+  },
+  {
+    "Code": "MKD",
+    "Name": "馬其頓德納爾"
+  },
+  {
+    "Code": "MMK",
+    "Name": "緬甸緬元"
+  },
+  {
+    "Code": "MNT",
+    "Name": "蒙古圖格裡克"
+  },
+  {
+    "Code": "MOP",
+    "Name": "澳門帕塔卡"
+  },
+  {
+    "Code": "MRO",
+    "Name": "茅利塔尼亞烏吉亞 (2018年之前)"
+  },
+  {
+    "Code": "MRU",
+    "Name": "茅利塔尼亞烏吉亞"
+  },
+  {
+    "Code": "MUR",
+    "Name": "模里西斯盧比"
+  },
+  {
+    "Code": "MVR",
+    "Name": "馬爾地夫魯比亞 a"
+  },
+  {
+    "Code": "MWK",
+    "Name": "malawian kwacha"
+  },
+  {
+    "Code": "MXN",
+    "Name": "墨西哥比索"
+  },
+  {
+    "Code": "MYR",
+    "Name": "馬來西亞林吉特"
+  },
+  {
+    "Code": "MZN",
+    "Name": "莫三比克墨西哥"
+  },
+  {
+    "Code": "NAD",
+    "Name": "納米比亞元"
+  },
+  {
+    "Code": "NGN",
+    "Name": "奈及利亞奈拉"
+  },
+  {
+    "Code": "NIO",
+    "Name": "尼加拉瓜科爾多瓦"
+  },
+  {
+    "Code": "NOK",
+    "Name": "挪威克朗"
+  },
+  {
+    "Code": "NPR",
+    "Name": "尼泊爾盧比"
+  },
+  {
+    "Code": "NZD",
+    "Name": "紐西蘭元"
+  },
+  {
+    "Code": "OMR",
+    "Name": "阿曼瑞爾"
+  },
+  {
+    "Code": "PAB",
+    "Name": "巴拿馬巴爾博亞"
+  },
+  {
+    "Code": "PEN",
+    "Name": "秘魯新索爾"
+  },
+  {
+    "Code": "PGK",
+    "Name": "巴布亞紐幾內亞 kina"
+  },
+  {
+    "Code": "PHP",
+    "Name": "菲律賓比索"
+  },
+  {
+    "Code": "PKR",
+    "Name": "巴基斯坦盧比"
+  },
+  {
+    "Code": "PLN",
+    "Name": "波蘭茲羅提"
+  },
+  {
+    "Code": "PYG",
+    "Name": "巴拉圭瓜拉尼語"
+  },
+  {
+    "Code": "QAR",
+    "Name": "卡塔爾瑞爾"
+  },
+  {
+    "Code": "RON",
+    "Name": "羅馬尼亞語 leu"
+  },
+  {
+    "Code": "RSD",
+    "Name": "塞爾維亞第納爾"
+  },
+  {
+    "Code": "RUB",
+    "Name": "俄羅斯盧布"
+  },
+  {
+    "Code": "RWF",
+    "Name": "盧安達法郎"
+  },
+  {
+    "Code": "SAR",
+    "Name": "沙特裡亞爾"
+  },
+  {
+    "Code": "SBD",
+    "Name": "索羅門群島元"
+  },
+  {
+    "Code": "SCR",
+    "Name": "塞席爾盧比"
+  },
+  {
+    "Code": "SDG",
+    "Name": "蘇丹鎊"
+  },
+  {
+    "Code": "SEK",
+    "Name": "瑞典克朗"
+  },
+  {
+    "Code": "SGD",
+    "Name": "新加坡元"
+  },
+  {
+    "Code": "SHP",
+    "Name": "聖赫勒拿鎊"
+  },
+  {
+    "Code": "SLL",
+    "Name": "塞拉里昂"
+  },
+  {
+    "Code": "SOS",
+    "Name": "索馬里先令"
+  },
+  {
+    "Code": "SRD",
+    "Name": "蘇利南元"
+  },
+  {
+    "Code": "SSP",
+    "Name": "南蘇丹鎊"
+  },
+  {
+    "Code": "STD",
+    "Name": "聖多美及普林西比島多布拉 (2018年之前)"
+  },
+  {
+    "Code": "STN",
+    "Name": "聖多美及普林西比島多布拉"
+  },
+  {
+    "Code": "SVC",
+    "Name": "薩爾瓦多科龍"
+  },
+  {
+    "Code": "SYP",
+    "Name": "敘利亞鎊"
+  },
+  {
+    "Code": "SZL",
+    "Name": "史瓦濟蘭利蘭根尼"
+  },
+  {
+    "Code": "THB",
+    "Name": "泰銖"
+  },
+  {
+    "Code": "TJS",
+    "Name": "塔吉克斯坦索莫尼"
+  },
+  {
+    "Code": "TMT",
+    "Name": "土庫曼斯坦馬納特"
+  },
+  {
+    "Code": "TND",
+    "Name": "突尼斯第納爾"
+  },
+  {
+    "Code": "TOP",
+    "Name": "湯加帕安"
+  },
+  {
+    "Code": "TRY",
+    "Name": "土耳其里拉"
+  },
+  {
+    "Code": "TTD",
+    "Name": "特立尼達和多巴哥元"
+  },
+  {
+    "Code": "TWD",
+    "Name": "新臺幣"
+  },
+  {
+    "Code": "TZS",
+    "Name": "坦尚尼亞先令"
+  },
+  {
+    "Code": "UAH",
+    "Name": "烏克蘭格裡夫納"
+  },
+  {
+    "Code": "UGX",
+    "Name": "烏干達先令"
+  },
+  {
+    "Code": "USD",
+    "Name": "美元 (美元)"
+  },
+  {
+    "Code": "UYU",
+    "Name": "烏拉圭比索"
+  },
+  {
+    "Code": "UZS",
+    "Name": "烏茲別克斯坦索姆"
+  },
+  {
+    "Code": "VEF",
+    "Name": "委內瑞拉玻利瓦爾省·富埃特 (老)"
+  },
+  {
+    "Code": "VES",
+    "Name": "委內瑞拉玻利瓦爾省·索貝拉諾"
+  },
+  {
+    "Code": "VND",
+    "Name": "越南盾"
+  },
+  {
+    "Code": "VUV",
+    "Name": "瓦努阿圖瓦圖"
+  },
+  {
+    "Code": "WST",
+    "Name": "samoan tala"
+  },
+  {
+    "Code": "XAF",
+    "Name": "非洲金融共同體法郎"
+  },
+  {
+    "Code": "XAG",
+    "Name": "銀盎司"
+  },
+  {
+    "Code": "XAU",
+    "Name": "金盎司"
+  },
+  {
+    "Code": "XCD",
+    "Name": "東加勒比海元"
+  },
+  {
+    "Code": "XDR",
+    "Name": "特別提款權"
+  },
+  {
+    "Code": "XOF",
+    "Name": "非洲金融共同體法郎"
+  },
+  {
+    "Code": "XPD",
+    "Name": "鈀盎司"
+  },
+  {
+    "Code": "XPF",
+    "Name": "cfp franc"
+  },
+  {
+    "Code": "XPT",
+    "Name": "白金盎司"
+  },
+  {
+    "Code": "YER",
+    "Name": "葉門裡亞爾"
+  },
+  {
+    "Code": "ZAR",
+    "Name": "南非蘭特"
+  },
+  {
+    "Code": "ZMW",
+    "Name": "尚比亞克瓦查"
+  },
+  {
+    "Code": "ZWL",
+    "Name": "辛巴威元"
+  }
+]
