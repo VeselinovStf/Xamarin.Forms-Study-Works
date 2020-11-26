@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es" original="CURRENCYLISTAPP/RESOUCES/APPRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="CURRENCYLISTAPP/RESOUCES/APPRESOURCES.RESX" datatype="resx">
+        <trans-unit id="AppTitle" translate="yes" xml:space="preserve">
+          <source>Currency View</source>
+          <target state="new">Currency View</target>
+        </trans-unit>
+        <trans-unit id="ConversionRateLabel" translate="yes" xml:space="preserve">
+          <source>Rate</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Tasa</target>
+        </trans-unit>
+        <trans-unit id="CurrencyNameLabel" translate="yes" xml:space="preserve">
+          <source>Currency Name</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Nombre de divisa</target>
+        </trans-unit>
+        <trans-unit id="CurrencyValueLabel" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">[hX26g]Valor</target>
+        </trans-unit>
+        <trans-unit id="CurrencyValuePrompt" translate="yes" xml:space="preserve">
+          <source>Value to convert</source>
+          <target state="new">Value to convert</target>
+        </trans-unit>
+        <trans-unit id="SelectCurrencyPrompt" translate="yes" xml:space="preserve">
+          <source>Select a currency</source>
+          <target state="needs-review-translation" state-qualifier="tm-suggestion">Seleccionar una divisa</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
