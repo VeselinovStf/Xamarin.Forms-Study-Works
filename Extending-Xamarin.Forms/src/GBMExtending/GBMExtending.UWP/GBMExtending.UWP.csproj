@@ -93,6 +93,7 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="CameraPageRenderer.cs" />
+    <Compile Include="CameraPreviewRenderer.cs" />
     <Compile Include="CameraRotationHelper.cs" />
     <Compile Include="MyCustomRenderer.cs" />
     <Compile Include="MainPage.xaml.cs">

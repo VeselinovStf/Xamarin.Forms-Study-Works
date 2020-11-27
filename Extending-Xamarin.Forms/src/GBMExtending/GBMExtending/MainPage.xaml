@@ -4,11 +4,10 @@
              x:Class="GBMExtending.MainPage">
 
     <StackLayout>
-        <controls:MyCustomEntry
-            HorizontalOptions="Center"
-            VerticalOptions="CenterAndExpand"/>
-
-        <Button Text="Take a Pickture" Clicked="TakePickture_Cliked"/>
+       
+        <controls:CameraPreview Camera="Front"
+                                HorizontalOptions="Center"
+                                VerticalOptions="CenterAndExpand"/>
     </StackLayout>
 
 </ContentPage>

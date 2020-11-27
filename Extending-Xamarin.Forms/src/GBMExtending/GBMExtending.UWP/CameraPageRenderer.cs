@@ -50,7 +50,7 @@ namespace GBMExtending.UWP
         bool _externalCamera;
         Task _setupTask = Task.CompletedTask;
 
-        protected override void OnElementChanged(ElementChangedEventArgs<Xamarin.Forms.Page> e)
+        protected override async void OnElementChanged(ElementChangedEventArgs<Xamarin.Forms.Page> e)
         {
             base.OnElementChanged(e);
 
@@ -67,7 +67,7 @@ namespace GBMExtending.UWP
                 _isActivePage = true;
 
                 SetupUserInterface();
-                SetupBasedOnStateAsync();
+                await SetupBasedOnStateAsync();
 
                 this.Children.Add(_page);
             }
