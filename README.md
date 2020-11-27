@@ -8,3 +8,6 @@ Collection of exercise projects with Xamarin.Forms
 
 ### Extending Xamarin.Forms
 - Exposing platform-specific user interface functionality is key to having shared native functionality. This course will teach you to extend Xamarin.Forms to expose that native functionality. 
+
+### Integrating Google Maps into Xamarin.Forms Apps
+- Adding maps to an app are a great way to enhance its usability and feature set. This course will focus on adding Google Maps to an existing Xamarin.Forms app. 
