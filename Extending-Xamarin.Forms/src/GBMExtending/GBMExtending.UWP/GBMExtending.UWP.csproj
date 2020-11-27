@@ -95,6 +95,7 @@
     <Compile Include="CameraPageRenderer.cs" />
     <Compile Include="CameraPreviewRenderer.cs" />
     <Compile Include="CameraRotationHelper.cs" />
+    <Compile Include="FocusEffect.cs" />
     <Compile Include="MyCustomRenderer.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
