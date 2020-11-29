@@ -1,4 +1,6 @@
 ﻿using System;
+using Wired_Brain_Coffee.Services;
+using Wired_Brain_Coffee.Views;
 using Wired_Brain_UserService;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -13,6 +15,8 @@ namespace Wired_Brain_Coffee
             InitializeComponent();
 
             DependencyService.Register<IUserApiService, UserApiService>();
+            DependencyService.Register<IUserService, UserService>();
+            MainPage = new NavigationPage(new RegistrationPage());
 
         }
 
