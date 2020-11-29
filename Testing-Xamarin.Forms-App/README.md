@@ -21,6 +21,10 @@
 - Unit Testing a Xamarin.Forms App
 - UI Testing Using UITest
 
+#### User Stroy
+
+- "As the product owner I want the mobile app to consumme our existing UserRegistration service so thet users who register on the app can also access the website"
+
 #### Duration: 1h 15m
 
 ## Status
