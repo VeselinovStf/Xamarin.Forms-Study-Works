@@ -1,4 +1,5 @@
 ﻿using System;
+using Wired_Brain_UserService;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,6 +11,8 @@ namespace Wired_Brain_Coffee
         public App()
         {
             InitializeComponent();
+
+            DependencyService.Register<IUserApiService, UserApiService>();
 
         }
 
