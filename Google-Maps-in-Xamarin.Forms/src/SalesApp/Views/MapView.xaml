@@ -15,7 +15,12 @@
 
             <maps:Map x:Name="map" VerticalOptions="FillAndExpand"
                       MyLocationEnabled="True"
-                      ></maps:Map>
+                      >
+                <maps:Map.Behaviors>
+                    <mapsBind:BindingVisibleRegionBehavior Value="{Binding VisibleRegion}"/>
+                    <mapsBind:MoveToRegionBehavior  Request="{Binding MoveToRegionRequest}"/>
+                </maps:Map.Behaviors>
+            </maps:Map>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
