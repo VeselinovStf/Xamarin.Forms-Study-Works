@@ -53,7 +53,13 @@ namespace SalesApp.UWP
 
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
-                Xamarin.Forms.Forms.Init(e);
+                var rendererAssemblies = new[]
+                {
+                    typeof(Xamarin.Forms.GoogleMaps.UWP.MapRenderer).GetTypeInfo().Assembly
+                };
+
+                Xamarin.FormsGoogleMaps.Init("AIzaSyA3Hvll579A9kaBtaYhUYeY2tTn4giFr2Q");
+                Xamarin.Forms.Forms.Init(e, rendererAssemblies);               
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

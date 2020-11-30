@@ -23,6 +23,7 @@ namespace SalesApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            Xamarin.FormsGoogleMaps.Init("AIzaSyA3Hvll579A9kaBtaYhUYeY2tTn4giFr2Q");
 
             LoadApplication(new App());
 

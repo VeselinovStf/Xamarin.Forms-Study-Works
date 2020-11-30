@@ -4,10 +4,15 @@
              xmlns:viewModelBase="clr-namespace:SalesApp.ViewModels.Base;assembly=SalesApp"
              viewModelBase:ViewModelLocator.AutoWireViewModel="true"
              x:Class="SalesApp.Views.MapView"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
              Title="Map">
     <ContentPage.Content>
-        <StackLayout>
-           
-        </StackLayout>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <maps:Map x:Name="map" VerticalOptions="FillAndExpand"></maps:Map>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
