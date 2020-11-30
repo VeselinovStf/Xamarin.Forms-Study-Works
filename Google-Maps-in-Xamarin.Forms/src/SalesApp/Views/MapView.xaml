@@ -19,6 +19,7 @@
                 <maps:Map.Behaviors>
                     <mapsBind:BindingVisibleRegionBehavior Value="{Binding VisibleRegion}"/>
                     <mapsBind:MoveToRegionBehavior  Request="{Binding MoveToRegionRequest}"/>
+                    <mapsBind:BindingPinsBehavior  Value="{Binding Pins}"/>
                 </maps:Map.Behaviors>
             </maps:Map>
         </Grid>
