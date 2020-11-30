@@ -39,7 +39,7 @@ namespace SalesApp.ViewModels
             //Visible region based on default cordinates + what distance to see
             VisibleRegion = MapSpan.FromCenterAndRadius(
                 new Xamarin.Forms.GoogleMaps.Position(defaultCordinates.Latitude, defaultCordinates.Longitude),
-                Distance.FromKilometers(1)
+                Distance.FromKilometers(0.200)
                 );
 
             //Move to visible region
@@ -57,8 +57,9 @@ namespace SalesApp.ViewModels
                     Address = a.Address1,
                     Type = PinType.Place,
                     Label = a.AddressDisplay,
-                    Position = new Xamarin.Forms.GoogleMaps.Position(a.Latitude.Value, a.Longitude.Value)
-                });
+                    Position = new Xamarin.Forms.GoogleMaps.Position(a.Latitude.Value, a.Longitude.Value),
+                    Icon = BitmapDescriptorFactory.FromBundle(a.AddressDisplay)
+                }); ;
             }
         }
 
