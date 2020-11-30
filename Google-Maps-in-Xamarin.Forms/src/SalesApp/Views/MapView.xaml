@@ -5,6 +5,7 @@
              viewModelBase:ViewModelLocator.AutoWireViewModel="true"
              x:Class="SalesApp.Views.MapView"
              xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             xmlns:mapsBind="clr-namespace:Xamarin.Forms.GoogleMaps.Bindings;assembly=Xamarin.Forms.GoogleMaps.Bindings"
              Title="Map">
     <ContentPage.Content>
         <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
@@ -12,7 +13,9 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <maps:Map x:Name="map" VerticalOptions="FillAndExpand"></maps:Map>
+            <maps:Map x:Name="map" VerticalOptions="FillAndExpand"
+                      MyLocationEnabled="True"
+                      ></maps:Map>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
